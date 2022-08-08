@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Alarm</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Online alarm</h1>
+        <p class="date"></p>
+
+        <div class="alarm__container">
+            <div class="alarm">
+                <div class="alarm__header">
+                    <button class="mode"></button>
+                    <p class="time"></p>
+                </div>
+                <div class="alarm-content">
+                    <div class="hour-container">
+                        <div class="hour"></div>
+                        <button class="btn-hour__inc"><i class="fa-solid fa-plus"></i></button>
+                        <button class="btn-hour__dec"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <span>:</span>
+                    <div class="minute-container">
+                        <div class="minute"></div>
+                        <button class="btn-minute__inc"><i class="fa-solid fa-plus"></i></button>
+                        <button class="btn-minute__dec"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <span>:</span>
+                    <div class="second-container">
+                        <div class="second"></div>
+                        <button class="btn-second__inc"><i class="fa-solid fa-plus"></i></button>
+                        <button class="btn-second__dec"><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="remaining"></div>
+        <button class="ok">Ok</button>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
